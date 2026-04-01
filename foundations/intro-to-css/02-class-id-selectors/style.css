@@ -2,5 +2,25 @@
 
 .odd {
     background-color: rgb(240, 128, 128);
-    font-family: "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second-element {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#third-element {
+    font-size: 24px;
+    /* 
+        Could just make a class that does 
+        this specifc decleration and use it
+        for both the 3rd and 4th elements
+    */
+}
+
+#fourth-element {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
 }
