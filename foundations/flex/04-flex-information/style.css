@@ -1,5 +1,13 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+  /* My method involves flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  /* Solution just centers text and puts a margin in .title */
 }
 
 img {
@@ -23,4 +31,14 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.all-plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-info {
+  max-width: 200px;
 }
